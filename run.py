@@ -25,7 +25,7 @@ async def cmd_text1(message: Message):
 
 @dp.message(F.text == '')
 async def cmd_text1(message: Message):
-    await message.answer('')
+    await message.answer('')пше
 
 @dp.message(F.text == 'Ваша філія в ЄС')
 async def cmd_text1(message: Message):
